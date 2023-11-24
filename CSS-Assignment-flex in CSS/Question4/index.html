@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+            box-sizing: border-box;
+        }
+        .Container{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(182, 196, 208);
+            border: 4px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            gap: 20px;
+
+        }
+        .Box{
+            /* border: 4px solid rebeccapurple; */
+            width: 390px;
+            height: 590px;
+            border-radius: 10px;
+            background-color: aliceblue;
+
+            
+            
+            
+            
+
+
+        }
+        .Box1{
+
+
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;
+            /* font-size: 30px; */
+            gap: 25px;
+            /* margin-left: 40px; */
+            padding: 70px;
+
+        }
+        .Box1-1 h1{
+          font-size:50px;
+        }
+        .Box1-1 p{
+            font-size: 25px;
+            
+        }
+        .Box1-2{
+
+            font-size: 45px;
+
+        }
+        .Box1 ul{
+
+          font-size: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          
+        }
+
+        .Box1 ul li{
+            list-style: none;
+
+        }
+        #SubscribeNow{
+        width: 200px;
+            height: 60px;
+            color: aliceblue;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 20px;
+        
+            
+        }
+
+        .Box2 {
+            color: aliceblue;
+            background-color: black;
+        }
+        .Box2 #SubscribeNow{
+            color: black;
+            background-color: aliceblue;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="Container">
+
+        <section  class= "Box Box1">
+
+            <div class="Box1-1">
+                <h1>Free plan</h1>
+                <p>For Personal</p>
+
+            </div>
+            <div class="Box1-2">
+                <h1>$0</h1>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i>  1 Users</li>
+                <li><i class="fa-solid fa-circle-check"></i>  4 Web Mails</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Free SSL</li>
+
+            </ul>
+            <input type="submit" id="SubscribeNow" value="SubscribeNow" name="SubscribeNow">
+
+
+        </section>
+        <section class="Box Box1 Box2">
+            
+
+            <div class="Box1-1">
+                <h1>Basic Plan</h1>
+                <p>For Small business</p>
+
+            </div>
+            <div class="Box1-2">
+                <h1>$29</h1>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i>  4 Users</li>
+                <li><i class="fa-solid fa-circle-check"></i>  10 Web Mails</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Free SSL</li>
+
+            </ul>
+            <input type="submit" id="SubscribeNow" value="SubscribeNow" name="SubscribeNow">
+
+        </section>
+        <section class="Box Box1 ">
+            <div class="Box1-1">
+                <h1>Pro plan</h1>
+                <p>For enterprise</p>
+
+            </div>
+            <div class="Box1-2">
+                <h1>$29</h1>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Ulimited Users </li>
+                <li><i class="fa-solid fa-circle-check"></i>  Ulimited Web Mails</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i>  Free SSL + SEO</li>
+
+            </ul>
+            <input type="submit" id="SubscribeNow" value="SubscribeNow" name="SubscribeNow">
+
+        </section>
+
+    </div>
+</body>
+</html>

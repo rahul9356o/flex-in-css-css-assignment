@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+            box-sizing: border-box;
+
+
+        }
+        .Container{
+            width: 100vw;
+            height: 100vh;
+            border: 3px solid black;
+            display: flex;
+            
+        }
+        .Left{
+            width: 60%;
+            
+            padding: 20px 30px 20px 30px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            
+
+
+        }
+        .Left1{
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+        .Left1-Logo img{
+            height: 80px;
+            /* border: 1px solid red; */
+
+        }
+        .Left1-Info{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .Left1-Info ul{
+            display: flex;
+            gap: 30px;
+            /* text-decoration: none; */
+            list-style: none;
+            
+            align-items: center;
+            align-self: flex-end;
+            /* list-style: none; */
+            
+        }   
+        .Left1-Info ul li a{
+            /* list-style: none; */
+            text-decoration: none;
+            font-size: 25px;
+            
+        } 
+        .Left1-Button {
+            display: flex;
+            gap: 30px;
+        }
+        .Left1-Button button{
+            padding: 10px;
+            width: 120px;
+        }
+        .Left1-Button button:first-child{
+            background-color: orangered;
+            color: aliceblue;
+        }
+
+        .Left2{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .Left2 h1{
+            font-size: 40px;
+        }
+        .Left2 ul{
+            display: flex;
+            gap: 20px;
+
+        }
+        .Left2 ul li {
+            list-style: none;
+            font-size: 20px;
+            /* padding: 20px; */
+        }
+       .Green{
+        color: green;
+       }
+       .Orange{
+        color: orange;
+
+       }
+      .Blue{
+        color: blue;
+      }
+      .Left3{
+        display: flex;
+        gap: 20px;
+
+      }
+      .Left3 button{
+        padding: 10px;
+        
+
+      }
+      .Left3 button:first-child{
+        background-color: blue;
+        color: aliceblue;
+      }
+      .Left5{
+        /* margin: 30px; */
+        margin-top: 20px;
+      }
+      .Left4{
+        border: 1px solid black;
+        display: flex;
+        /* padding: 50px; */
+        padding-left: 100px;
+        padding: 15px;
+        gap: 170px;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .Left4-1{
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .Left4-3{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .Left5-2{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .Left41{
+        padding-left: 20px;
+      }
+      .Left6{
+        display: flex;
+        text-align: center;
+      }
+      .Left6 #SearchTrain{
+        width:830px;
+        padding: 10px;
+        /* text-align: center; */
+        background-color: green;
+        color:aliceblue;
+      }
+
+
+
+
+
+
+
+        .Right{
+            width: 40%;
+
+        }
+        .Right img{
+            width: 83vh;
+            margin-left: 0%;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+
+    <div class="Container">
+
+        <section class="Left">
+            <div class="Left1">
+                <div class="Left1-Logo">
+                   <img src="https://logos-world.net/wp-content/uploads/2020/11/IRCTC-Logo.png" alt="">
+                    
+                    
+
+                    <img src="https://law-all.com/image/cache/catalog/data/Category/Stationery/2021/PPS15-800x800.JPG" alt="About us " >
+
+                </div>
+                <div class="Left1-Info">
+                    <ul>
+                        <li><a href="# ">Ask Disha</a></li>
+                        <li><a href="# "> Contact Us </a></li>
+                        <li><a href="# ">Alerts</a></li>
+
+                    </ul>
+                    <div class="Left1-Button">
+
+                        <button>Logic</button>
+
+                        <button>Register</button>
+                        <button>Agent Login</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="Left2">
+                <h1>
+                    Indian Railways
+                </h1>
+                <ul>
+                    <li class="Green">Safety</li>
+                    <li class="Orange">Security</li>
+                    <li class="Blue">punctuality</li>
+                </ul>
+            </div>
+            <div class="Left3">
+               <button>
+                <i class="fa-solid fa-ticket"></i>  BOOK Ticket
+               </button>
+               <button>
+                <i class="fa-solid fa-check"></i>    PNR Status
+               </button>
+               <button>
+                <i class="fa-regular fa-square-poll-vertical"></i>   Charts/vacancy
+
+               </button>
+             </div>
+             <div class="Box">
+
+                 <div class="Left4 Left41">
+                     <div class="Left4-1">
+                         <div class="Left4-1Logo">
+                             <img src="https://www.svgrepo.com/show/43170/train.svg" alt="" height="25px">
+                             
+                            </div>
+                            <div class="Left4-1Info">
+                                <div class="Form">
+                                    <span>Form </span>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                    
+                                    
+                                </div>
+                                <div class="Location">
+                                    <h2>Bangalore</h2>
+                                    <span>KSR-Bangalore</span>
+                                    
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="Left4-2">
+                            <i class="fa-solid fa-left-right"></i>
+                            
+                            
+                        </div>
+                        <div class="Left4-3">
+                            <div class="Left4-3logo">
+                                <i class="fa-solid fa-train"></i>
+                                
+                            </div>
+                            <div class="Left4-3Info">
+                                <div class="TO">
+                                    <span>To</span>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                    
+                                    
+                                </div>
+                                <div class="Location">
+                                    <h2>Kasaragod</h2>
+                                    <span>Kds-Kasaragod</span>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="Left4 Left5">
+                        <div class="Left4-1">
+                            <div class="Left4-1Logo">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                
+                            </div>
+                            <div class="Left4-1Info">
+                                <div class="Form">
+                                    <span>Date</span>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                    
+                                    
+                                </div>
+                                <div class="Location">
+                                    <h2>01 Aug 23</h2>
+                                    <span>Tuesday</span>
+                                    
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="Left4-2 Left5-2 ">
+                            
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Cursed_Seal_Sakon_%26_Ukon.svg" alt="" width="15px" height="15px">
+
+
+                            <div class="Left4-2">
+
+                                <span>Class</span>
+                                <i class="fa-solid fa-chevron-up"></i>
+                                <h2>3A</h2>
+                                <span>AC 3 tier</span>
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div class="Left4-3">
+                    <div class="Left4-3logo">
+                        
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoYwFs6DxHVPWj4gjklml0wrvu90hxTdCYBn7INKYaVWx_Y8-ZzmlEnq1qM3_n4-PNaFQ&usqp=CAU" alt="" height="15px">
+
+                    </div>
+                    <div class="Left4-3Info">
+                        <div class="TO">
+                            <span>Seat Type</span>
+                            <i class="fa-solid fa-chevron-up"></i>
+                            
+                            
+                        </div>
+                        <div class="Location">
+                            <h2>TATKAL</h2>
+                            <span>AC 3 Tier</span>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        <div class="Left6">
+            <input type="submit" value="Search Train" name="Search Train" id="SearchTrain">
+        </div>
+        </section>
+        
+        <section class="Right">
+            <img src="https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/10/19/1105378-vande-bharat-train.jpg?im=FitAndFill=(700,400)" alt="About us ">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKf4p_zUmpyJ7F_HwZwQ3mteUAgX5g-miMcpIqX7v9bQ&s" alt="About us " >
+
+        </section>
+    
+
+        
+    </div>
+</body>
+</html>
