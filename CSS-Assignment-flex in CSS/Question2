@@ -1,0 +1,18 @@
+
+-justify-content:
+This property aligns flex container items along the main axis. It helps in distributing extra free space or shrinking items when there is not enough space.
+
+
+
+-align-items: 
+This property aligns flex container items along the cross axis. It specifies the default alignment for items inside the flex container.
+
+
+
+-gap: 
+This property is used to set the gap  between flex container items. It's a shorthand for row-gap and column-gap in a grid layout, and it works similarly in a flex container.
+
+
+
+-flex-wrap: 
+This property determines whether the flex container should wrap the flex items if they do not fit in a single line. It can have values like nowrap, wrap, and wrap-reverse.
